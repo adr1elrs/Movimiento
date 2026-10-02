@@ -4,7 +4,7 @@ public class ForwardMovementController : MonoBehaviour
 {
     public float speed = 4.0f;
     public float turnSpeed = 90.0f;
-    public float rayLength = 3.0f;
+    public float rayLength = 30.0f;
 
     // Update is called once per frame
     void Update()
@@ -15,6 +15,6 @@ public class ForwardMovementController : MonoBehaviour
 
         Vector3 desplazamiento = transform.forward * speed * Time.deltaTime;
         transform.Translate(desplazamiento, Space.World);
-        Debug.DrawRay(transform.position, transform.forward * rayLength, Color.blue);
+        Debug.DrawRay(transform.position, transform.forward * rayLength, Color.red);
     }
 }
