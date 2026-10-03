@@ -813,7 +813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ForwardMovementController
   speed: 1
   turnSpeed: 90
-  rayLength: 3
+  rayLength: 100
 --- !u!1 &1399909966
 GameObject:
   m_ObjectHideFlags: 0
